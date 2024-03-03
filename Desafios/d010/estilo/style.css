@@ -38,9 +38,9 @@ a.externo::after {
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     background-color: var(--cor4);
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
+    min-height: 150px; /*mexe no tamanho da caixa, nesse caso do cabeçalho*/
+    text-align: center; /*mexe no lugar onde o elemento fica*/
+    padding-top: 40px; /*mexe na distância do elemento do topo da pagina*/
 }
 
 header > h1 {
